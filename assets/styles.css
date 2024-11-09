@@ -691,3 +691,15 @@ video {
 .box-8 {
   grid-area: 5 / 3 / 6 / 5;
 }
+
+@media (max-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 640px) {
+  .sm\:grid {
+    display: grid;
+  }
+}
